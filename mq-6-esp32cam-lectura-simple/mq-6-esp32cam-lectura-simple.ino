@@ -30,6 +30,6 @@ void loop () {
   //Codigo
   int dato = analogRead (sensor);//Lectura del sensor
   Serial.print ("El valor del sensor es: ");
-  Serial.print (dato);//Se imprimen los datos
+  Serial.println (dato);//Se imprimen los datos
   delay (1000);//Espera estandar
 }
