@@ -13,7 +13,7 @@
 //Bibliotecas
 
 //Constantes
-int sensor = 12;
+//int sensor = 12;
 
 //Variable
 
@@ -28,8 +28,8 @@ void setup () {
 //Cuerpo del programa
 void loop () {
   //Codigo
-  int dato = analogRead (sensor);//Lectura del sensor
-  Serial.print ("El valor del sensor es: ");
-  Serial.print (dato);//Se imprimen los datos
+  //int dato = analogRead (sensor);//Lectura del sensor
+  Serial.println ("El valor del sensor es: ");
+  //Serial.print (dato);//Se imprimen los datos
   delay (1000);//Espera estandar
 }
