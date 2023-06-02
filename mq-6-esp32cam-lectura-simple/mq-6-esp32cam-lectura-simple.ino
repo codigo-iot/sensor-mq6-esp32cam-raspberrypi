@@ -28,8 +28,14 @@ void setup () {
 //Cuerpo del programa
 void loop () {
   //Codigo
+<<<<<<< HEAD
   //int dato = analogRead (sensor);//Lectura del sensor
   Serial.println ("El valor del sensor es: ");
   //Serial.print (dato);//Se imprimen los datos
+=======
+  int dato = analogRead (sensor);//Lectura del sensor
+  Serial.print ("El valor del sensor es: ");
+  Serial.println (dato);//Se imprimen los datos
+>>>>>>> 9b909fd2ab63a1262be4a1f33481034e8e0c0d0a
   delay (1000);//Espera estandar
 }
